@@ -1,0 +1,25 @@
+TypeScript is a superset of the JavaScript language. It helps maintain type safety in your code.
+
+For example, in JavaScript, the expression 2 + "2" results in "22". Similarly, undefined + 2 results in NaN. This shows that type safety is not strictly enforced in JavaScript.
+
+TypeScript addresses this issue by providing static type checking. This means that the code you write is constantly checked by the IDE or compiler, helping you minimize errors before running your program.
+
+TypeScript files use the .ts or .tsx extensions. The TypeScript code is then compiled (or transpiled) into JavaScript, which can be executed by browsers or Node.js.
+
+TypeScript provides several built-in types to help ensure type safety in your programs. These include: number, string, boolean, null, undefined, void, object, array, tuple, any (not recommended for general use), never, and unknown.
+
+Situations where TS is mostly used 
+    a function that accepts 2 numbers
+    a function returns a string 
+
+syntax:-
+let <variableName>:<datatype> = <value>
+
+It is suggested not to use "any" datatype
+When you dont specify a type,and TypeScript cant infer it from the context, the compiler will automatically default to any 
+You usually want to avoid this,though,because any isnt type-checked.Use the compiler flag noImplicitAny to flGag any implicit any as an errors
+
+
+
+
+
