@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    // File Layout
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    // Use ES modules and modern JS for browsers
+    "module": "ESNext",
+    "target": "ES2017", // ES2017+ is widely supported
+    "moduleResolution": "Node",
+
+    // Output Maps and Declarations
+    "sourceMap": true,
+    "declaration": false, // optional: disable if not building a library
+
+    // Type Checking
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+
+    // JSX (ignore if not using React)
+    "jsx": "react-jsx",
+
+    // Other Settings
+    "skipLibCheck": true
+  }
+}
